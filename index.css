@@ -22,7 +22,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* HTML5 display-role CSS reset for older browsers */ 
+/* HTML5 display-role CSS reset for older browsers */
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -69,17 +69,32 @@ nav {
     color: white;
     display: flex;
     justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    
 }
 a {
-    padding: 2%;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
+    flex-basis: 110px;
+    word-wrap: break-word;
+    border-radius: 15%;
 }
 a:visited {
     color: white;
 }
 /* About Us CSS Style */
 
+.text-container {
+    padding: 5%;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .about-us {
   display: flex;
   padding: 5%;
@@ -88,8 +103,18 @@ a:visited {
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 40px;
+    font-size: 50px;
     
+}
+
+.about-us-text1 {
+    margin-top: 5%;
+}
+
+.about-us-text2 {
+  width: 50%;
+  padding: 5%;
+   
 }
 
 .mountain-image {
