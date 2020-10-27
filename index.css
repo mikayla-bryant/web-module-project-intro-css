@@ -47,9 +47,10 @@ table {
 	border-spacing: 0;
 }
 
-/* Universal Selectors / Defaults */
-
-
+body {
+    padding: 2%;
+    line-height: 20px;
+}
 /* Nav Bar CSS Style */
 
 .plan-visit {
@@ -64,13 +65,41 @@ table {
     background-color: #FFCD69;
 }
 
-/* Main Article CSS Style */
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+/* About Us CSS Style */
 
+.about-us {
+  display: flex;
+  padding: 5%;
+  text-align: center;
+  justify-content: space-evenly;
+}
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 40px;
+    
 }
 
-p {
+.mountain-image {
+    border-radius: 50%;
+    width: 25%;
+}
+
+
+/* Main Article CSS Style */
+p, nav {
     font-family: 'Roboto Mono', monospace;
     
 }
@@ -78,7 +107,7 @@ p {
 .bold {
     font-weight: 700;
 }
-body {
+.main-section {
     background-color: #DDB9A3;
 }
 
