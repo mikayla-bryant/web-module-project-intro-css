@@ -127,10 +127,13 @@ h1 {
 .mountain-image {
     border-radius: 50%;
     width: 100%;
+    
 }
 
 .image {
     width: 29%;
+    margin-left: 5%;
+    
 }
 
 /* Main Article CSS Style */
