@@ -1,0 +1,205 @@
+
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role CSS reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    line-height: 20px;
+}
+/* Nav Bar CSS Style */
+
+.plan-visit {
+    background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.get-involved {
+    background-color: #FFCD69;
+}
+
+header nav {
+    margin-top: 2%;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    
+}
+a {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    flex-basis: 7em;
+    word-wrap: break-word;
+    border-radius: 15%;
+}
+a:visited {
+    color: white;
+}
+/* About Us CSS Style */
+
+.text-container {
+    padding: 5%;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us {
+  display: flex;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  justify-content: space-around;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3.2em;
+    line-height: 1em;
+    
+}
+
+.about-us-text1 {
+    margin-top: 5%;
+}
+
+.about-us-text2 {
+  width: 50%;
+  padding: 5%;
+   
+}
+
+
+.mountain-image {
+    border-radius: 50%;
+    width: 100%;
+    
+}
+
+.image {
+    width: 29%;
+    margin-left: 5%;
+    
+}
+
+/* Main Article CSS Style */
+p, nav {
+    font-family: 'Roboto Mono', monospace;   
+}
+
+.bold {
+    font-weight: 700;
+}
+.main-section {
+    background-color: #DDB9A3;
+    padding: 1.5em;
+    color: white;
+    width: 91%;
+    margin: auto;
+    text-align: center;
+}
+
+.favicon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.fire {
+    width: 15%;
+    
+}
+.fire-image {
+    width: 100%;
+    margin-top: 50%;
+    margin-bottom: 10%; 
+}
+
+.fav-text {
+    width: 25%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 0.9em;
+}
+
+.van {
+    width: 20%;
+    margin-top: 5%;
+}
+
+/* Footer CSS Style */
+
+footer {
+    background-color: #F9E7DC;
+}
+
+.footer-image {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;   
+}
+
+.footer-image img  {
+    margin: -50px 0px 0px 0px;
+}
+
+footer div nav {
+    padding-bottom: 5%;
+}
